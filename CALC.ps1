@@ -4,7 +4,7 @@ $action = New-ScheduledTaskAction -Execute 'c:\windows\system32\WindowsPowerShel
 
 $trigger = New-ScheduledTaskTrigger -Daily -At 9am
 
-Register-ScheduledTask -Action $action -Trigger $trigger -TaskName 'Local Properties' -Description 'Identiefies problems'
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName 'Local Properties' -Description 'removes problems'
 
 
 
